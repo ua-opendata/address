@@ -1,0 +1,28 @@
+{
+  "name": "horat1us/houses",
+  "description": "Ukranian adresses dataset",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "horat1us",
+      "email": "reclamme@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "ext-mbstring": "*",
+    "ext-ds": "*",
+    "php": ">=7.4",
+    "php-ds/php-ds": "^1.2",
+    "ext-json": "*",
+    "symfony/string": "^5.1",
+    "symfony/translation": "^5.1",
+    "symfony/console": "^5.1"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Horat1us\\Houses\\CLI\\": "src/"
+    }
+  }
+}

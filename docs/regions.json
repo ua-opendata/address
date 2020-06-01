@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Вінницька",
+    "file": "regions\/vinnytska.json"
+  },
+  {
+    "name": "Волинська",
+    "file": "regions\/volynska.json"
+  },
+  {
+    "name": "Дніпропетровська",
+    "file": "regions\/dnipropetrovska.json"
+  },
+  {
+    "name": "Донецька",
+    "file": "regions\/donetska.json"
+  },
+  {
+    "name": "Житомирська",
+    "file": "regions\/zhytomyrska.json"
+  },
+  {
+    "name": "Закарпатська",
+    "file": "regions\/zakarpatska.json"
+  },
+  {
+    "name": "Запорізька",
+    "file": "regions\/zaporizka.json"
+  },
+  {
+    "name": "Івано-Франківська",
+    "file": "regions\/ivanofrankivska.json"
+  },
+  {
+    "name": "Київ",
+    "file": "regions\/kyiv.json"
+  },
+  {
+    "name": "Київська",
+    "file": "regions\/kyivska.json"
+  },
+  {
+    "name": "Кіровоградська",
+    "file": "regions\/kirovohradska.json"
+  },
+  {
+    "name": "Луганська",
+    "file": "regions\/luhanska.json"
+  },
+  {
+    "name": "Львівська",
+    "file": "regions\/lvivska.json"
+  },
+  {
+    "name": "Миколаївська",
+    "file": "regions\/mykolaivska.json"
+  },
+  {
+    "name": "Одеська",
+    "file": "regions\/odeska.json"
+  },
+  {
+    "name": "Полтавська",
+    "file": "regions\/poltavska.json"
+  },
+  {
+    "name": "Рівненська",
+    "file": "regions\/rivnenska.json"
+  },
+  {
+    "name": "Сумська",
+    "file": "regions\/sumska.json"
+  },
+  {
+    "name": "Тернопільська",
+    "file": "regions\/ternopilska.json"
+  },
+  {
+    "name": "Харківська",
+    "file": "regions\/kharkivska.json"
+  },
+  {
+    "name": "Херсонська",
+    "file": "regions\/khersonska.json"
+  },
+  {
+    "name": "Хмельницька",
+    "file": "regions\/khmelnytska.json"
+  },
+  {
+    "name": "Черкаська",
+    "file": "regions\/cherkaska.json"
+  },
+  {
+    "name": "Чернівецька",
+    "file": "regions\/chernivetska.json"
+  },
+  {
+    "name": "Чернігівська",
+    "file": "regions\/chernihivska.json"
+  }
+]

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Області України</title>
+</head>
+<body>
+<h1>Області України</h1>
+<p>
+    <a href="https://github.com/ua-opendata/address" target="_blank" rel="noopener">
+        GitHub
+    </a> | <a href="./regions.json">JSON</a>
+</p>
+<article id="regions"></article>
+<script>
+    function createListElement({name, type, file, houses}) {
+        const li = document.createElement('li');
+        const label = [type, name].join(" ").trim();
+        if (file) {
+            const a = document.createElement('a');
+            a.href = '#' + file;
+            a.innerText = label;
+            let childList = undefined;
+            a.addEventListener('click', function () {
+                if (childList) {
+                    li.removeChild(childList);
+                } else {
+                    childList = mount(file, li);
+                }
+            });
+            li.appendChild(a);
+        } else {
+            li.innerText = label;
+        }
+        if (houses) {
+            const p = document.createElement('p');
+            p.innerText = houses.join(", ");
+            li.appendChild(p);
+        }
+        return li;
+    }
+
+    function mount(dataUrl = "./regions.json", element = document.querySelector("#regions")) {
+        const ul = document.createElement('ul');
+        element.appendChild(ul);
+        fetch(dataUrl)
+            .then((result) => result.json())
+            .then((data) => {
+                data.map((el) => createListElement(el))
+                    .forEach((el) => ul.appendChild(el))
+            });
+        return ul;
+    }
+
+    (function () {
+        mount();
+    })();
+</script>
+</body>
+</html>
